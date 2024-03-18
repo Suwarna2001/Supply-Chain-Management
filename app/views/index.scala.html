@@ -1,0 +1,72 @@
+@(title: String)
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@title</title>
+    <style>
+        body {
+            background-color: #d24ffe;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Make the container take up the full viewport height */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .description {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .banner {
+            width: 100%;
+            height: 600px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h1>LogiSync</h1>
+    <h2>Streamlining Supply Chains</h2>
+    <p class="description">Welcome to SyncLogix, where supply chain mastery meets unparalleled control. With our platform, Controlled Distribution Managers orchestrate seamless logistics, optimizing every movement for success.</p>
+    <form action="/uploadJson" method="POST" enctype="multipart/form-data">
+        <div class="file-upload">
+            <label for="order-json-file">Upload Order Details JSON File</label>
+            <input type="file" id="order-json-file" name="orderJsonFile" accept=".json">
+        </div>
+        <div class="file-upload">
+            <label for="supplier-json-file">Upload Supplier Details JSON File</label>
+            <input type="file" id="supplier-json-file" name="supplierJsonFile" accept=".json">
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+</div>
+<div class="banner"></div>
+</body>
+</html>
+
+

@@ -1,0 +1,15 @@
+{
+  "db": {
+    "default": {
+      "driver": "org.postgresql.Driver",
+      "url": "jdbc:postgresql://localhost:5432/mydatabase",
+      "username": "myuser",
+      "password": "mypassword"
+    }
+  },
+  "logger": {
+    "root": "INFO",
+    "com.example": "DEBUG"
+  }
+
+}
