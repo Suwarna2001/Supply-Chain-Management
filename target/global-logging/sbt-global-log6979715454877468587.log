@@ -1,0 +1,686 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.9.8 (AdoptOpenJDK Java 11.0.11)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: plugins took 124.8246ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: defsScala took 0.5022ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\SUWARNA\.sbt\1.0\plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\SUWARNA\.sbt\1.0\plugins, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 22.0712 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.resolveProject(global-plugins) took 54.4985ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\SUWARNA\.sbt\1.0\plugins, plugins: List(<none>))) took 110.4297ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\SUWARNA\.sbt\1.0\plugins, returning: (global-plugins)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: loadedProjectsRaw took 135.5721ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: cleanEvalClasses took 0.2197ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit(file:/C:/Users/SUWARNA/.sbt/1.0/plugins/, ...) took 270.9222ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: load took 522.5681ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: resolveProjects took 9.4237ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: finalTransforms took 77.671ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: config.delegates took 11.5779ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: Def.make(settings)... took 714.1661ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: structureIndex took 123.7294ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: mkStreams took 1.9251ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading global plugins from C:\Users\SUWARNA\.sbt\1.0\plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 3731.2253ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 39.7255ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.0054ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\project[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadUnit: mkEval took 11.8784ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.2557 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project play-scala-hello-world-tutorial-build from plugins.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(play-scala-hello-world-tutorial-build) took 6.223ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id play-scala-hello-world-tutorial-build, base: C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\project, plugins: List(<none>))) took 9.2002ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\project, returning: (play-scala-hello-world-tutorial-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 206.6861ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 5.9234ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/C:/Users/SUWARNA/IdeaProjects/play-samples/play-scala-hello-world-tutorial/project/, ...) took 253.6684ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 255.4722ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 0.1831ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 11.9317ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 0.3716ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 131.2725ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 39.1475ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 0.0027ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 3786.3756ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.0061ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 0.7278ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found root project root w/ remaining [0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(play.sbt.PlayScala), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayFilters),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayLogback),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayMinimalJava),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayPekkoHttp2Support),Set(Atom(play.sbt.PlayPekkoHttpServer)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayPekkoHttpServer),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.PlayWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.routes.RoutesCompiler)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsTask)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayService)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.twirl.sbt.SbtTwirl)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.SbtNativePackager),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.jlink.JlinkPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.AshScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemVPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemdPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.systemloader.UpstartPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.systemloader.SystemloaderPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.docker.DockerSpotifyClientPlugin),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayFilters)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayWeb),Set(Atom(play.sbt.PlayLayoutPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayLogback)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(play.sbt.PlayService),Set(Atom(play.sbt.PlayPekkoHttpServer)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,play.sbt.PlayScala,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,play.sbt.PlayWeb,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayService,play.sbt.PlayFilters,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,play.sbt.PlayPekkoHttpServer,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,play.sbt.PlayLogback,sbt.plugins.MiniDependencyTreePlugin,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.archetypes.scripts.BashStartScriptPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.packager.archetypes.scripts.BatStartScriptPlugin,com.typesafe.sbt.packager.docker.DockerPlugin,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 324.1535 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project root from build.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(root) took 817.6979ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial, plugins: List(play.sbt.PlayScala))) took 1147.848ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial, returning: (root)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 1347.9694ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 12.9762ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/C:/Users/SUWARNA/IdeaProjects/play-samples/play-scala-hello-world-tutorial/, ...) took 5148.8889ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 5151.9455ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.19ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 133.0664ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 2.2518ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 532.9211ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 117.4172ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.0054ms[0m
+[0m[[0m[0minfo[0m] [0m[0m  __              __[0m
+[0m[[0m[0minfo[0m] [0m[0m  \ \     ____   / /____ _ __  __[0m
+[0m[[0m[0minfo[0m] [0m[0m   \ \   / __ \ / // __ `// / / /[0m
+[0m[[0m[0minfo[0m] [0m[0m   / /  / /_/ // // /_/ // /_/ /[0m
+[0m[[0m[0minfo[0m] [0m[0m  /_/  / .___//_/ \__,_/ \__, /[0m
+[0m[[0m[0minfo[0m] [0m[0m      /_/               /____/[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mVersion 3.0.2 running Java 11.0.11[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPlay is run entirely by the community. Please consider contributing and/or donating:[0m
+[0m[[0m[0minfo[0m] [0m[0mhttps://www.playframework.com/sponsors[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:28:50: not found: value Environment[0m
+[0m[[0m[31merror[0m] [0m[0m  val context = ApplicationLoader.Context.create(Environment.simple())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:29:20: not found: type CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:33:3: not found: value Play[0m
+[0m[[0m[31merror[0m] [0m[0m  Play.start(application)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:51:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:51:34: not found: type StringDeserializer[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:51:58: not found: type StringDeserializer[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:54:21: not found: value ConsumerConfig[0m
+[0m[[0m[31merror[0m] [0m[0m      .withProperty(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest")[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:57:21: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:57:60: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:60:22: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:60:61: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:38:46: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val manufactureActor = system.actorOf(Props[ManufactureActor], "manufactureActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:41:45: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val assignmentActor = system.actorOf(Props[AssignmentActor], "assignmentActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:44:61: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val orderAssignmentCoordinatorActor = system.actorOf(Props[OrderAssignmentCoordinatorActor], "orderAssignmentCoordinatorActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:47:43: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryActor = system.actorOf(Props[DeliveryActor], "deliveryActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:183:44: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val kafkaProducer = context.actorOf(Props[KafkaProducerActor], "kafkaProducer")[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:8:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.scaladsl.Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:9:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.{ConsumerSettings, Subscriptions}[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:21:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:31: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:70: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m21 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:5:8: object ConsumerSettings is not a member of package org.apache.kafka.clients.consumer[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.consumer.{ConsumerSettings, KafkaConsumer}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:8:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.scaladsl.Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:9:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:33:50: not found: value Environment[0m
+[0m[[0m[31merror[0m] [0m[0m  val context = ApplicationLoader.Context.create(Environment.simple())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:34:20: not found: type CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:38:3: not found: value Play[0m
+[0m[[0m[31merror[0m] [0m[0m  Play.start(application)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:56:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:62:21: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:62:60: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:65:22: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:65:61: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:43:46: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val manufactureActor = system.actorOf(Props[ManufactureActor], "manufactureActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:46:45: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val assignmentActor = system.actorOf(Props[AssignmentActor], "assignmentActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:49:61: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val orderAssignmentCoordinatorActor = system.actorOf(Props[OrderAssignmentCoordinatorActor], "orderAssignmentCoordinatorActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:52:43: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryActor = system.actorOf(Props[DeliveryActor], "deliveryActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:188:44: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val kafkaProducer = context.actorOf(Props[KafkaProducerActor], "kafkaProducer")[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:8:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.scaladsl.Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:9:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.{ConsumerSettings, Subscriptions}[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:21:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:31: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:70: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m21 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:5:8: object ConsumerSettings is not a member of package org.apache.kafka.clients.consumer[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.consumer.{ConsumerSettings, KafkaConsumer}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:8:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.scaladsl.Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:9:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:33:50: not found: value Environment[0m
+[0m[[0m[31merror[0m] [0m[0m  val context = ApplicationLoader.Context.create(Environment.simple())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:34:20: not found: type CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:38:3: not found: value Play[0m
+[0m[[0m[31merror[0m] [0m[0m  Play.start(application)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:56:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:62:21: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:62:60: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:65:22: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:65:61: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:43:46: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val manufactureActor = system.actorOf(Props[ManufactureActor], "manufactureActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:46:45: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val assignmentActor = system.actorOf(Props[AssignmentActor], "assignmentActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:49:61: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val orderAssignmentCoordinatorActor = system.actorOf(Props[OrderAssignmentCoordinatorActor], "orderAssignmentCoordinatorActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:52:43: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryActor = system.actorOf(Props[DeliveryActor], "deliveryActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:188:44: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val kafkaProducer = context.actorOf(Props[KafkaProducerActor], "kafkaProducer")[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:8:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.scaladsl.Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:9:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.{ConsumerSettings, Subscriptions}[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:21:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:31: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:70: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m21 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:5:8: object ConsumerSettings is not a member of package org.apache.kafka.clients.consumer[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.consumer.{ConsumerSettings, KafkaConsumer}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:8:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.scaladsl.Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:9:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:33:50: not found: value Environment[0m
+[0m[[0m[31merror[0m] [0m[0m  val context = ApplicationLoader.Context.create(Environment.simple())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:34:20: not found: type CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:38:3: not found: value Play[0m
+[0m[[0m[31merror[0m] [0m[0m  Play.start(application)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:56:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:62:21: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:62:60: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:65:22: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:65:61: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:43:46: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val manufactureActor = system.actorOf(Props[ManufactureActor], "manufactureActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:46:45: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val assignmentActor = system.actorOf(Props[AssignmentActor], "assignmentActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:49:61: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val orderAssignmentCoordinatorActor = system.actorOf(Props[OrderAssignmentCoordinatorActor], "orderAssignmentCoordinatorActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:52:43: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryActor = system.actorOf(Props[DeliveryActor], "deliveryActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:188:44: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val kafkaProducer = context.actorOf(Props[KafkaProducerActor], "kafkaProducer")[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:8:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.scaladsl.Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:9:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.{ConsumerSettings, Subscriptions}[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:21:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:31: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:70: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m21 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:5:8: object ConsumerSettings is not a member of package org.apache.kafka.clients.consumer[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.consumer.{ConsumerSettings, KafkaConsumer}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:8:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.scaladsl.Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:9:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:10:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:11:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:35:50: not found: value Environment[0m
+[0m[[0m[31merror[0m] [0m[0m  val context = ApplicationLoader.Context.create(Environment.simple())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:36:20: not found: type CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:40:3: not found: value Play[0m
+[0m[[0m[31merror[0m] [0m[0m  Play.start(application)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:58:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:64:21: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:64:60: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:67:22: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:67:61: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:45:46: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val manufactureActor = system.actorOf(Props[ManufactureActor], "manufactureActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:48:45: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val assignmentActor = system.actorOf(Props[AssignmentActor], "assignmentActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:51:61: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val orderAssignmentCoordinatorActor = system.actorOf(Props[OrderAssignmentCoordinatorActor], "orderAssignmentCoordinatorActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:54:43: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryActor = system.actorOf(Props[DeliveryActor], "deliveryActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:190:44: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val kafkaProducer = context.actorOf(Props[KafkaProducerActor], "kafkaProducer")[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:8:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.scaladsl.Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:9:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.{ConsumerSettings, Subscriptions}[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:21:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:31: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:70: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m23 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:5:8: object ConsumerSettings is not a member of package org.apache.kafka.clients.consumer[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.consumer.{ConsumerSettings, KafkaConsumer}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:8:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.scaladsl.Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:9:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:10:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:11:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:35:50: not found: value Environment[0m
+[0m[[0m[31merror[0m] [0m[0m  val context = ApplicationLoader.Context.create(Environment.simple())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:36:20: not found: type CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new CustomApplicationLoader[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:40:3: not found: value Play[0m
+[0m[[0m[31merror[0m] [0m[0m  Play.start(application)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:58:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:64:21: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:64:60: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val orderSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Order"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:67:22: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:67:61: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val supplySource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Supply"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:45:46: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val manufactureActor = system.actorOf(Props[ManufactureActor], "manufactureActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:48:45: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val assignmentActor = system.actorOf(Props[AssignmentActor], "assignmentActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:51:61: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val orderAssignmentCoordinatorActor = system.actorOf(Props[OrderAssignmentCoordinatorActor], "orderAssignmentCoordinatorActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:54:43: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryActor = system.actorOf(Props[DeliveryActor], "deliveryActor")[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\actors\ActorSytemOfSCM.scala:190:44: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method apply,[0m
+[0m[[0m[31merror[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[31merror[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[31merror[0m] [0m[0m  val kafkaProducer = context.actorOf(Props[KafkaProducerActor], "kafkaProducer")[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:8:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.scaladsl.Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:9:13: object kafka is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.kafka.{ConsumerSettings, Subscriptions}[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:21:5: not found: value ConsumerSettings[0m
+[0m[[0m[31merror[0m] [0m[0m    ConsumerSettings(system, new StringDeserializer, new StringDeserializer)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:31: not found: value Consumer[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\SUWARNA\IdeaProjects\play-samples\play-scala-hello-world-tutorial\app\controllers\KafkaController.scala:27:70: not found: value Subscriptions[0m
+[0m[[0m[31merror[0m] [0m[0m  val deliveryDetailsSource = Consumer.plainSource(consumerSettings, Subscriptions.topics("Delivery_Details"))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m23 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
