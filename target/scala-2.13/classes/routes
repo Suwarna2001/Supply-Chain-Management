@@ -1,8 +1,0 @@
-# conf/routes
-
-# Routes for file upload and processing
-POST    /uploadJson        controllers.OrderController.uploadJson
-# Routes for displaying Kafka messages
-GET     /kafkaMessages     controllers.KafkaController.index
-# Route for the landing page
-GET     /             controllers.HomeController.index
